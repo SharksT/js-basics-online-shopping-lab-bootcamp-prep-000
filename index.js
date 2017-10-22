@@ -38,10 +38,10 @@ function viewCart() {
         else{
           text = text + `, ${itemName[i]} at $${cart[i][itemName[i]]}`;
         }
-        
+
       }
       else if((cart.length - 1) == i) {
-          text = text + ` and ${itemName[i]} at $${cart[i][itemName[i]]}.`;
+          text = text + `, and ${itemName[i]} at $${cart[i][itemName[i]]}.`;
           //console.log(`${text} and ${itemName[i]} at $${cart[i][itemName[i]]}.`)
       }
     }
