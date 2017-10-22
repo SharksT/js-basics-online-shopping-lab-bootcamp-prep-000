@@ -39,6 +39,7 @@ function viewCart() {
           //console.log(`${text} and ${itemName[i]} at $${cart[i][itemName[i]]}.`)
       }
     }
+    console.log(fixed + text);
   }
   else {
     console.log("Your shopping cart is empty.")
