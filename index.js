@@ -32,6 +32,9 @@ function viewCart() {
         console.log(`${fixed} ${itemName[i]} at $${cart[i][itemName[i]]}.`)
       }
       else if ((cart.length - 1) != i) {
+        if (i == 0) {
+          text = text + ` ${itemName[i]} at $${cart[i][itemName[i]]}`
+        }
         text = text + `, ${itemName[i]} at $${cart[i][itemName[i]]}`
       }
       else if((cart.length - 1) == i) {
